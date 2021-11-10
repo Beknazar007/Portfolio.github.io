@@ -4,6 +4,7 @@ body {
 .container-fluid{
     padding-right: 0;
     padding-left: 0;
+    
 }
 .row{
   margin: auto 0;
@@ -37,7 +38,7 @@ header div.menu a h2 {
 .navbar{
   display:flex ;
   position: fixed;
-  z-index: 2;
+  z-index: 13;
   background-color: #ffffff;
   width: 100%;
   justify-content: flex-end;
@@ -155,17 +156,14 @@ section div.kto p {
   margin-top: 30px;
   text-align: left;
 }
-.myphoto2 img {
-  padding: 5px;
- 
-
-  max-width: 100%;
-}
-.myphoto3 img {
-  padding: 5px;
- 
-
-  max-width: 100%;
+section div.gallery{
+  position: flex;
+  
+  
+  padding: 10px ;
+  float: left;
+  justify-content: center;
+  
 }
 
 .offer-sec {
@@ -204,26 +202,8 @@ section div.services {
 .insta-icon, .tele-icon{
   display: none;
 }
-.contact {
-  padding-top: 20px;
-  padding-bottom: 50px;
-}
-.contact .icon{
-  font-size: 30px;
-  margin-bottom: 30px;
-}
-.text-muted{
-  margin-top: 20px;
-  color: #6c757d;
-}
-.contact-form .row, .input{
-  padding-bottom: 20px;
-}
-.submitBnt{
-  background-color: #f89d36;
-  color: #fff;
-  margin-bottom: 70px;
-}
+
+
 .footer {
   display: block;
   padding: 60px 0;
@@ -344,7 +324,7 @@ body {
 }
 
 .water ul.waves li.wave-one{
-	animation: wave 8.7s linear infinite;
+	animation: wave 87s linear infinite;
 	-webkit-animation-fill-mode: forwards;
 	-o-animation-fill-mode: forwards;
 	animation-fill-mode: forwards;
@@ -360,7 +340,7 @@ body {
 	-webkit-animation-fill-mode: forwards;
 	-o-animation-fill-mode: forwards;
 	animation-fill-mode: forwards;
-	animation: wave 10s linear infinite;
+	animation: wave 100s linear infinite;
 	bottom: 0px;
 	height: 84px;
 	left: 0;
@@ -373,7 +353,7 @@ body {
 	-webkit-animation-fill-mode: forwards;
 	-o-animation-fill-mode: forwards;
 	animation-fill-mode: forwards;
-	animation: wave 25s linear infinite;
+	animation: wave 250s linear infinite;
 	bottom: 0;
 	height: 190px;
 	left: 0;
@@ -386,7 +366,7 @@ body {
 	-webkit-animation-fill-mode: forwards;
 	-o-animation-fill-mode: forwards;
 	animation-fill-mode: forwards;
-	animation: wave 25s linear infinite;
+	animation: wave 250s linear infinite;
 	bottom: 0;
 	height: 205px;
 	left: 0;
@@ -425,17 +405,7 @@ body {
 
 }
 
-.dolphin{
-	animation: fish 15s linear infinite;
-	background-repeat: no-repeat;
-	bottom: 45px;
-	height: 80px;
-	left: 20%;
-	position: absolute;
-	width: 124px;
-	z-index: 9;
-  color:red;
-}
+
 
 
 
@@ -449,7 +419,7 @@ body {
 	}
 
     100% {
-        background-position: 1920px 0;
+        background-position: 19200px 0;
     }
 }
 
@@ -459,7 +429,7 @@ body {
 	}
 
 	50%{
-		transform: rotate(-3deg);
+		transform: rotate(-5deg);
 	}
 
 	100%{
