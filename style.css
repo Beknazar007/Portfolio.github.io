@@ -156,14 +156,26 @@ section div.kto p {
   margin-top: 30px;
   text-align: left;
 }
-section div.gallery{
-  position: flex;
-  
-  
-  padding: 10px ;
-  float: left;
+div.gal{
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+
+
+}
+div.gallery{
+  padding: 10px ;
   
+  
+  
+}
+div.hobby{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+div.hobphoto{
+  margin: 5px;
 }
 
 .offer-sec {
