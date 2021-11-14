@@ -84,8 +84,8 @@ header div.call-to {
   white-space: nowrap;
   overflow: hidden;
   border-right: 4px solid white;
-  animation: flashing-border 0.75s step-end infinite,
-  printed-text 2s steps(13) ;
+  animation: flashing-border 0.80s step-end infinite,
+  printed-text 3s steps(13) ;
 }
 .main-title span{
   color: #ff8800;
