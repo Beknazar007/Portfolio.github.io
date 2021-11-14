@@ -163,13 +163,9 @@ div.gal{
 
 
 }
-div.gallery1{
-  padding: 40px ;
-  
-}
-div.gallery2{
+div.gallery{
   padding: 30px ;
-  
+  margin: 30px;  
 }
 div.hobby{
   display: flex;
@@ -340,7 +336,7 @@ hr{
     width: 250px;
 }
 
-/* .cloud{
+.cloud{
 	animation: cloud 25s linear infinite;
 	background-repeat: no-repeat;
     height: 165px;
@@ -359,7 +355,7 @@ hr{
     width: 297px;
     top:-500px;
 
-} */
+}
 
 
 /*Animation Keyframe Section*/
@@ -388,7 +384,7 @@ hr{
 	}
 }
 
-/* @keyframes cloud{
+@keyframes cloud{
 	0%{
 		left: -30%;
 	}
@@ -396,7 +392,7 @@ hr{
 	100%{
 		left: 100%;
 	}
-} */
+}
 
 
 
@@ -427,10 +423,6 @@ hr{
   .inalaarhca{
     width: 300px;
     height: 360px;
-  }
-  .gallery1{
-    
-    padding-top: 5px;
   }
   header div.menu a h2 {
     font-size: 15px;
@@ -472,23 +464,9 @@ hr{
   .col-8{
     width: 100%;
   }
-  .animation-wrapper{
-    margin-top: 100px;
-    width: 100%;
-  }
-  .boat{
-    width: 250px;
-    left: 30%;
-  }
-  .poem{
-    font-size: 15px;
-    left: 1%;
-  }
-  .media{
-    padding: 10px;
-  }
-  
 }
 .icon:hover{
   color: #ff8800;
+
+
 }
