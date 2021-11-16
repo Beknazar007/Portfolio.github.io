@@ -24,9 +24,7 @@ a:hover {
 header div.menu {
   
   width:95%;
-  height: 134px;
-  
-  
+  height: 134px; 
 }
 header div.menu a h2 {
   color: rgb(0, 0, 0);
@@ -429,6 +427,8 @@ hr{
   }
   header div.menu {     
     width: max-content;
+    
+    height: auto; 
   }
   .my-image1{
     width: 200px;
@@ -462,6 +462,9 @@ hr{
     list-style-type: none;
     margin-right: 20px;
     margin-top: -50px;
+  }
+  .navbar{
+   z-index: -1;
   }
   .csstoggle{
     display: flex;
