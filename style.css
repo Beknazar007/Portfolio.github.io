@@ -14,6 +14,7 @@ header {
   background-repeat: no-repeat;
   background-position:center;
   background-size: cover;
+  
 }
 a:hover {
   text-decoration: none;
@@ -70,8 +71,10 @@ header div.call-to {
   justify-content: center;
 }
 .my-image1{
- border-radius: 100%;
+  border-radius: 100%;
   border: snow solid;
+  width: 350px; 
+  height: 350px
 }
 .main-center{
   display: flex;
@@ -438,7 +441,12 @@ hr{
     width: 300px;
     height: auto;
   }
-  
+  .my-image1{
+    width: 250px;
+    height: auto;
+    border-radius: 100%;
+    border: snow solid;
+  }
   header div.menu a h2 {
     font-size: 15px;
     color: #fff;
